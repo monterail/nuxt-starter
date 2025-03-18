@@ -10,12 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/eslint": "1.2.0",
     "@nuxt/image": "1.9.0",
     "@nuxt/ui": "^3.0.0",
     "@vueuse/nuxt": "13.0.0",
+    "eslint": "^9.0.0",
     "nuxt": "^3.16.0",
     "vue": "latest",
     "vue-router": "latest"
   },
-  "packageManager": "pnpm@9.14.2+sha1.5202b50ab92394b3c922d2e293f196e2df6d441b"
+  "packageManager": "pnpm@9.14.2+sha1.5202b50ab92394b3c922d2e293f196e2df6d441b",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }
